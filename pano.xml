@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama appversion="6.1.2" id="node1" apprev="17873">
+  <input levelbias="0.400" leveltilesize="510" levelingpitch="0" width="400" levelingroll="0" overlap="1" height="400" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+    <level preload="1" width="400" predecode="1" height="400"/>
+    <preview strip="1" color="0x808080"/>
+  </input>
+  <view fovmode="0" pannorth="0">
+    <start projection="4" pan="0" fov="70" tilt="0"/>
+    <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+    <min pan="0" fovpixel="2" tilt="-90"/>
+    <max fovstereographic="270" scaletofit="1" pan="360" fov="120" tilt="90" fovfisheye="360"/>
+  </view>
+  <userdata datetime="" latitude="" copyright="" longitude="" info="" title="" author="" comment="" description="" source="" customnodeid="" tags="" nodeid="node1"/>
+  <hotspots width="180" height="20" wordwrap="1">
+    <label borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" width="180" borderradius="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" border="1" height="20" background="1" wordwrap="1"/>
+    <polystyle borderalpha="1" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+    <hotspot url="images/peces.jpg" customimageheight="100" use3D="0" distance3D="571.503" id="Point01" pan="-45.31" title="punto 1 xd" description="" fov="10" skinid="ht_image" customimagewidth="100" tilt="1.87" target="" customimage="media/iconoxd.png"/>
+    <polyhotspot url="https://www.pngegg.com/es/search?q=pez" id="Poly01" title="dfsafdad" description="afsfafs&#xa;as&#xa;f&#xa;saf&#xa;asf&#xa;a&#xa;sf" target="_blank">
+      <polystring>-287.27/-17.64|-324.88/-19.85|-313.31/-39.02|-269.79/-29.36|-273.18/-9.16|-302.57/-8.34|-324.92/-20.05|-324.92/-20.05</polystring>
+    </polyhotspot>
+  </hotspots>
+  <media>
+    <image roty="0.000" stretch="1.000" width="700" id="Element01" pan="-139.760" rotz="0.000" fov="30.000" tilt="13.570" height="532" clickmode="0" rotx="0.000" handcursor="0">
+      <source url="media/peces.jpg"/>
+    </image>
+    <image roty="0.000" stretch="1.000" width="890" id="Element02" pan="-189.830" rotz="0.000" fov="30.000" tilt="4.390" height="450" clickmode="0" rotx="0.000" handcursor="1">
+      <source url="media/pez.png"/>
+      <source url="media/pez.png"/>
+    </image>
+    <image roty="0.000" stretch="1.000" width="400" id="Element03" pan="-245.750" rotz="0.000" fov="30.000" tilt="12.740" height="400" clickmode="0" rotx="0.000" handcursor="0">
+      <source url="media/peces gif.gif"/>
+    </image>
+    <image roty="0.000" stretch="1.000" width="450" id="Element04" pan="-284.970" rotz="0.000" fov="30.000" tilt="13.530" height="450" clickmode="0" rotx="0.000" handcursor="0">
+      <source url="media/peces gif 2.gif"/>
+    </image>
+    <image roty="0.000" stretch="1.000" width="252" id="Element05" pan="-316.850" rotz="0.000" fov="30.000" tilt="-0.710" height="209" clickmode="0" rotx="0.000" handcursor="0">
+      <source url="media/peces gif 3.gif"/>
+    </image>
+    <video rotz="0.000" pansize="10.000" ambientlevel="0.000" clickmode="2" height="640" tilt="15.700" level="1.000" stretch="1.000" startmutedmobile="1" handcursor="1" field="90.000" roty="0.000" loop="2" fov="30.000" rotx="0.000" mode="3" id="Element06" tiltsize="10.000" pan="-352.770" nodechangekeep="0" width="360">
+      <source url="media/perro video.mp4"/>
+    </video>
+    <lensflare blinding="50.000" id="Lensflare01" pan="-219.850" alpha="80.000" tilt="14.360" type="5" color="0xffffff"/>
+  </media>
+  <transition zoomin="0" blendtime="1" blendcolor="0x000000" enabled="1" zoomoutpause="1" type="crossdissolve" softedge="0" zoomfov="20" zoomspeed="2" zoomout="0"/>
+  <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+  <control invertwheel="0" simulatemass="1" lockedmouse="0" rubberband="0" lockedkeyboard="0" sensitivity="8" dblclickfullscreen="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" lockedkeyboardzoom="0" lockedwheel="0" contextprojections="0" hideabout="0"/>
+</panorama>
